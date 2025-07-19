@@ -1,0 +1,35 @@
+# Criação básica de variáveis
+
+
+numero = 77
+
+string_a = "setenta e sete"
+
+string2_b = "palavra qualquer"
+
+outra_variavel = numero
+
+
+# Exibição de informações na tela
+
+
+print("No caso das strings, seguimos o padrão com as aspas de ambos os lados")
+
+print(77) # Já os números, podem ser inseridos diretamente
+
+print(string_a) # No caso de outras variáveis, basta escrevê-las diretamente também
+
+
+
+# Os RESULTADOS EM TELA ficariam como segue (excluindo o uso da " # " )
+
+
+# No caso das strings, seguimos o padrão com as aspas de ambos os lados
+
+# 77
+
+# Setenta e sete
+
+
+
+
