@@ -1,0 +1,88 @@
+# Com apenas a estrutura que utilizamos no arquivo "basics" é possível estruturar diversos pequenos programas que:
+# 1 -> Guardam informações e 2 -> Mostram as informações na tela
+
+# ============================================================
+# File:         mini_programa_1
+# Author:       Diego Lima Araujo
+# GitHub:       https://github.com/diegolimaaraujo/python/mini_programa_1
+# Created on:   2025-07-18
+# Last update:  2025-07-18
+# Description:  Este script demonstra um exemplo básico de uso
+#               de elementos fundamentais em Python
+#
+# Language:     python
+#
+# ============================================================
+
+
+# Vamos começar criando um Título para esse mini-programa, portanto fique em destaque no topo do programa
+
+print("MINI PROGRAMA de BALLET EM PYTHON")
+
+
+# Agora vamos inserir as variáveis e seus conteúdos em sequência
+
+movimento_ballet_1 = "Plié"
+
+movimento_ballet_2 = "Tendu"
+
+movimento_ballet_3 = "Jeté"
+
+movimento_ballet_4 = "Fondu"
+
+movimento_ballet_5 = "Frappé"
+
+movimento_ballet_6 = "Adágio"
+
+movimento_ballet_7 = "Grand Battement"
+
+
+
+# Agora vamos criar os canais de exibição dessas variáveis
+
+
+print("Listagem dos movimentos básicos:")
+
+
+print(movimento_ballet_1)
+
+print(movimento_ballet_2)
+
+print(movimento_ballet_3)
+
+print(movimento_ballet_4)
+
+print(movimento_ballet_5)
+
+print(movimento_ballet_6)
+
+print(movimento_ballet_7)
+
+
+
+
+# Para fortalecer ainda mais esse código, podemos inserir um indicador de numeração externo, dentro do PRINT
+
+
+print("====================div==========================") # Sugestão de divisória
+
+
+print("Listagem dos movimentos ENUMERADA:")
+
+print("1º " + movimento_ballet_1)
+
+print("2º " + movimento_ballet_2)
+
+print("3º " + movimento_ballet_3)
+
+print("4º " + movimento_ballet_4)
+
+print("5º " + movimento_ballet_5)
+
+print("6º " + movimento_ballet_6)
+
+print("7º " + movimento_ballet_7)
+
+
+
+
