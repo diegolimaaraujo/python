@@ -1,0 +1,91 @@
+# Agora vamos tentar ampliar o uso das variáveis considerando uma soma de valores básica
+
+# Vamos criar um exemplo básico que utilizei com meus alunos
+# A ideia desse mini programa era que eles inserissem os livros que eles leram na biblioteca
+# Dessa forma, montei uma estrutura geral em que eles pudessem manipular o código apenas para PERSONALIZAR com os livros que eles leram
+# Podendo, claro, consultar os dados técnicos das obras online > ou inventar alguns dados apenas para critério de exemplo
+
+# ============================================================
+# File:         mini_programa_2
+# Author:       Diego Lima Araujo
+# GitHub:       https://github.com/diegolimaaraujo/python/mini_programa_2
+# Created on:   2025-07-18
+# Last update:  2025-07-18
+# Description:  Este script demonstra um exemplo básico de uso
+#               de elementos em Python construindo um mini programa rudimentar
+#
+# Language:     python
+#
+# ============================================================
+
+# Iniciaremos esse programa com o título identificador básico
+
+print("APLICATIVO DO DIA MUNDIAL DO LIVRO")
+print("")
+
+# Depois que criei esse modelo, vi que ele podia ter como nome – o termo LIVRARIA, mas ficou com esse nome de homenagem mesmo à semana de criação
+
+livro_1 = "A insustentável leveza do ser"
+autor_livro_1 = "Milan Kundera"
+ano_livro_1 = "1984"
+vendas_livro_1_2022 = 237
+vendas_livro_1_2023 = 370
+vendas_livro_1_2024 = 107
+a = vendas_livro_1_2022
+b = vendas_livro_1_2023
+c = vendas_livro_1_2024
+
+total_livro_1 = a + b + c
+
+print("LIVRO 1")
+print("")
+
+print(livro_1)
+print(autor_livro_1)
+print(ano_livro_1)
+print("Vendidos em 2022: ", vendas_livro_1_2022)
+print("Vendidos em 2023: ", vendas_livro_1_2023)
+print("Vendidos em 2024: ", vendas_livro_1_2024)
+
+print("")
+
+print("Total de Vendas:", total_livro_1)
+
+print("")
+
+print("===============================div==================================")
+print("")
+
+
+livro_2 = "Ensaio sobre a cegueira"
+autor_livro_2 = "José Saramago"
+ano_livro_2 = "1995"
+vendas_livro_2_2022 = 427
+vendas_livro_2_2023 = 570
+vendas_livro_2_2024 = 207
+a = vendas_livro_2_2022
+b = vendas_livro_2_2023
+c = vendas_livro_2_2024
+
+total_livro_2 = a + b + c
+
+print("LIVRO 2")
+print("")
+
+print(livro_2)
+print(autor_livro_2)
+print(ano_livro_2)
+print("Vendidos em 2022: ", vendas_livro_2_2022)
+print("Vendidos em 2023: ", vendas_livro_2_2023)
+print("Vendidos em 2024: ", vendas_livro_2_2024)
+
+
+print("")
+
+print("Total de Vendas:", total_livro_2)
+
+print("")
+
+print("===============================div==================================")
+
+# O miniprograma poderia seguir desta forma indefinidamente, dependendo dos livros que eles desejassem registrar
