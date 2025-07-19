@@ -1,16 +1,31 @@
 # Criação básica de variáveis
+# As variáveis são como caixas de informações – o nome delas é como a etiqueta colada em uma caixa, enquanto o que for colocado após o símbolo de igual (=) será as coisas dentro da caixa
 
 
 numero = 77
 
 string_a = "setenta e sete"
 
-string2_b = "palavra qualquer"
+string_b = "palavra qualquer"
 
 outra_variavel = numero
 
 
+
+# Observação: Para mudar as coisas dentro dessas caixas de informação, basta você adicionar novos conteúdos nela – conforme o exemplo:
+
+string_b = "palavra qualquer"   # Conteúdo anterior
+
+string_b = "nova palavra"     # Novo conteúdo (modificado)
+
+
+
+# Observação 2: Em Python usamos ( _ ) snakecase quando desejamos dar a uma variável um nome composto. Nos exemplos acima, temos isso ocorrendo em string_a e string_b
+
+
+
 # Exibição de informações na tela
+
 
 
 print("No caso das strings, seguimos o padrão com as aspas de ambos os lados")
@@ -24,12 +39,12 @@ print(string_a) # No caso de outras variáveis, basta escrevê-las diretamente t
 # Os RESULTADOS EM TELA ficariam como segue (excluindo o uso da " # " )
 
 
+
 # No caso das strings, seguimos o padrão com as aspas de ambos os lados
 
 # 77
 
 # Setenta e sete
-
 
 
 
