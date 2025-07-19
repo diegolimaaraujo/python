@@ -1,0 +1,53 @@
+# Agora vamos avançar um pouco mais com o trabalho envolvendo as Condicionais
+
+# A ideia é usarmos o conjunto If, Elif e Else
+
+# Nesse mini-programa, considerei a possibilidade de um GamePlay que rodasse com os nossos comandos básicos + as condicionais
+
+# Como Scene 0 de um Jogo, um personagem já definido escolhe por qual aventura (path) irá seguir
+# As condicionais aqui serão úteis por trazer elementos distintos para cada PATH, a sequência dos desafios do jogo com o IF/ELIF/ELSE pode variar dependendo do jogador
+
+# Observação: Nesse mini programa podemos ver a importância da identação em Python e também o uso do INPUT > possibilitando a interação no PROMPT
+
+# ============================================================
+# File:         condicionais_1
+# Author:       Diego Lima Araujo
+# GitHub:       https://github.com/diegolimaaraujo/python/condicionais_1
+# Created on:   2025-07-18
+# Last update:  2025-07-18
+# Description:  Este script demonstra um exemplo básico de uso
+#               de elementos Condicionais em Python
+#
+# Language:     python
+#
+# ============================================================
+
+print("Florestan Castle")
+print("")
+
+ENTRADA = "Lugar"
+ENTRADA = input("Escolha o caminho do PLAYER: ")
+print("")
+print("")
+
+print("Caminho escolhido: " + ENTRADA)
+print("")
+
+if ENTRADA == "Caverna dos Ossos Flamejantes":
+    print("Recurso 1: Lápis Encantado por uma Fênix")
+    print("Recurso 2: Borracha Curativa para Danos Leves")
+    print("Adversário 1: Dragão Mastigador de Ossos")
+    print("Adversário 2: Besouros Sulfúricos")
+elif ENTRADA == "Viajante da Placa em Destroços":
+    print("Recurso 1: Mapa do Viajante")
+    print("Recurso 2: Água de Prata")
+    print("Adversário 1: Maleta Monstro do Viajante")
+    print("Adversário 2: Fantasma de Garrafa")
+elif ENTRADA == "Castelo em Chamas":
+    print("Recurso 1: Moedas de Zinabre")
+    print("Recurso 2: Elmo do Cavaleiro de Jade")
+    print("Desafio: Feiticeira de Pólvora")
+else:
+    print("> Este caminho não foi desbloqueado ainda. Complete a fase 1 para liberar")
+
+  
