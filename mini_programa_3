@@ -1,0 +1,65 @@
+# Para a criação de um novo mini-programa, podemos ter como referência novas modalidades de atividades
+
+# Independentemente do tipo de programa desejado a elaborar – com alguns recursos como IF/ELIF/ELSE, podemos criar um menu de um aplicativo básico
+
+# Imaginando que cada uma das condicionais deve funcionar como um Botão (que terá como utilidade servir para criar interação em uma tela)
+
+
+print("MINI PROGRAMA 3 em PYTHON")
+print("")
+
+
+botao_clicado = "O que o usuário decidir"
+botao_clicado = input("O botão escolhido foi: ")
+print(botao_clicado)
+print("")
+
+if botao_clicado == "Acesse":
+    print("TELA DE LOGIN")
+    print("")
+    print("Usuário:______________")
+    print("Senha:______________")
+    print("")
+    print("[ENTRAR]")
+
+
+elif botao_clicado == "Ranking Global":
+    print("TELA DE RANKING")
+    print("")
+    print("1º Lugar: Domenico_97")
+    print("2º Lugar: Eleonora_173")
+    print("3º Lugar: Eurídice_247")
+    print("4º Lugar: Clitemnestra_587")
+
+
+elif botao_clicado == "Catálogo de Apps":
+    print("TELA DE CATÁLOGO")
+    print("")
+    print("Basics: Com os Fundamentos em Python")
+    print("Mini Programa 1: Com um programa simplificado envolvendo variáveis e exibição de informações")
+    print("Mini Programa 2: Com o uso de condicionais a partir dos comandos IF/ELSE IF/ELSE")
+
+
+elif botao_clicado == "Nossas Redes":
+    print("TELA COM NOSSAS REDES")
+    print("")
+    print("Instagram: @mini_programas_infinitos")
+    print("Facebook: @face_mini_programas")
+    print("Tik Tok: @clock_mini_programas")
+
+
+else:
+    print("Botão indisponível no sistema.")
+    print("")
+    print("Ao invés dele, tente as seguintes possibilidades:")
+    print("")
+    print("1 - Acesse")
+    print("2 - Ranking Global")
+    print("3 - Nossas Redes")
+    print("")
+    print("* Só temos os botões acima listados")
+
+
+# A proposta da ferramenta é simular a possibilidade de interação em uma tela que tenha botões, imaginando que os botões sejam condicionais
+
+# Apesar desse sistema não corresponder a exatamente um sistema que seja funcional
