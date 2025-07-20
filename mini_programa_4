@@ -1,16 +1,26 @@
-# Criamos uma lista de palavras - utilizando a linguagem Python
+
+
+# Criamos uma lista de Itens com valores de palavras (strings) - utilizando a linguagem Python
+# Para criar uma listagem, é necessário usar [] antes e depois da sequência de itens desejada – usando vírgulas entre cada um dos itens
+
 
 palavras = ["Programa Básico", "Programa de Variáveis", "Programa de Condicionais", "Programa de Simulação de App", "Programa com uso de While"]
 
-# Inicializamos o índice com 0 > o que vai corresponder ao item 1 da listagem
+
+# Inicializamos o índice com 2 > o que vai corresponder ao item 3 da listagem (já que o item 0 corresponde ao item 1 da listagem sempre):
 
 indice = 2
 
-# O laço while executa enquanto o índice for menor que o tamanho da lista
+
+# O laço WHILE executa enquanto o índice for menor que o tamanho da lista (que, por conter 5 itens – pode ser consultada usando os números 0,1,2,3 e 4)
+
 
 while indice < len(palavras):
     print(f"Palavra: {palavras[indice]}")  # Exibe a palavra atual
     indice += 1  # Incrementa o índice a cada iteração
 
 
-# Esse aplicativo ainda não representa em si um programa utilizável (apenas uma proposta para a utilização de While)
+# Esse aplicativo ainda não representa em si um programa utilizável (apenas uma proposta para a utilização de laço While)
+
+# No livro Arquitetura Limpa, da série Robert C. Martin (Editora Alta Books), o autor menciona a Programação estruturada como uma que se estabeleça em declarações como Do/While/Until e IF/Then/Else
+
